@@ -1,24 +1,28 @@
-#!python
+#! python
 # -*- coding: utf-8 -*-
 
 # Секция 1. Импорт библиотек
 import csv
 import matplotlib.pyplot as plt
 
-# Секция 2. 
+# Секция 2.
 # тут скачиваем нужные файлы
 
 # Секция 3.
+
+
 def readCSV(filename, country):
     try:
         with open(filename, encoding='utf-8', newline='') as file:
             # для анализа файла используем класс DictReader
-            reader = csv.DictReader(file)                           
+            reader = csv.DictReader(file)
             for line in reader:
                 if line['Country/Region'] == country:
                     return line
     except IOError as e:                                            # обработки ошибки чтения
-        return f'Ошибка чтения файла!\n{str(e)}'                    # вывод ошибки
+        # вывод ошибки
+        return f'Ошибка чтения файла!\n{str(e)}'
+
 
 confirmed = readCSV('time_series_covid19_confirmed_global.csv', 'Russia')
 
@@ -47,9 +51,10 @@ for confirmed_key, confirmed_value in confirmed.items():
 
 for i in recovered_value_lst:
     print(i)
-print(len(timeline_lst), len(confirmed_value_lst), len(deaths_value_lst), len(recovered_value_lst))
+print(len(timeline_lst), len(confirmed_value_lst),
+      len(deaths_value_lst), len(recovered_value_lst))
 
-plt.title("Зависимости") # заголовок
+plt.title("Зависимости")  # заголовок
 # plt.xlabel("x")         # ось абсцисс
 # plt.ylabel("y1, y2")    # ось ординат
 # plt.grid()              # включение отображение сетки

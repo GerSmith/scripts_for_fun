@@ -1,4 +1,4 @@
-#!C:\Python38\python.exe
+#! python
 # -*- coding: utf-8 -*-
 
 # Как получить IP адрес любого сайта используя Python
