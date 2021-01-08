@@ -1,4 +1,4 @@
-#!C:\Python38\python.exe
+#! python
 # -*- coding: utf-8 -*-
 
 # Всплывающее уведомление Windows в 3 строчки на Python

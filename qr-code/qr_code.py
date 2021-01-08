@@ -1,4 +1,4 @@
-#!C:\Python38\python.exe
+#! python
 # -*- coding: utf-8 -*-
 
 # Свой QR-код на Python

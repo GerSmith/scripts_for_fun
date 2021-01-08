@@ -1,4 +1,4 @@
-#!python
+#! python
 # -*- coding: utf-8 -*-
 # Скрипт добавляет строку INSERT_STRING в начало текстовых файлов в директории FOLDER_SRC
 # и записывает их в FOLDER_MOVE, имя который задаёт пользователь
@@ -8,7 +8,8 @@ import os
 INSERT_STRING = 'Дарова, пачаны!\n'
 
 FOLDER_SRC = 'many-txt'
-FOLDER_MOVE = input('Пожалуйста введите имя директории для изменения файлов (на английском): ')
+FOLDER_MOVE = input(
+    'Пожалуйста введите имя директории для изменения файлов (на английском): ')
 
 os.mkdir(FOLDER_MOVE)
 
