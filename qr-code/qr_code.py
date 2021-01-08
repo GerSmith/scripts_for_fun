@@ -6,8 +6,9 @@
 import pyqrcode
 # pip install pyqrcode pypng
 
-QRString = 'https://t.me/python2day'
+# QRString = 'https://t.me/python2day'
 
+QRString = 'https://invite.viber.com/?g=JvQyW23oeEqXFUuj4T_Z482yPBPdBrRm'
 url = pyqrcode.create(QRString)
 
-url.png('my_qr.png', scale=8)
+url.png('invite_home.png', scale=8)
