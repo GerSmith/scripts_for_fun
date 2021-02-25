@@ -1,7 +1,7 @@
 #! python
 # -*- coding: utf-8 -*-
 
-# Свой QR-код на Python
+"""Свой QR-код на Python."""
 
 import pyqrcode
 # pip install pyqrcode pypng

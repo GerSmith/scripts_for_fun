@@ -1,6 +1,8 @@
 #! python
 # -*- coding: utf-8 -*-
 
+"""Традиционная английская песенка про 99 бутылок пива."""
+
 BOTTLES = 99
 
 for i in reversed(range(1, BOTTLES + 1)):

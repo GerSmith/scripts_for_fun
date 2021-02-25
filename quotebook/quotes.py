@@ -1,6 +1,8 @@
 #! python
 # -*- coding: utf-8 -*-
 
+"""Генератор армейских цитат."""
+
 import random
 import sys
 

@@ -1,10 +1,10 @@
 #! python
 # -*- coding: utf-8 -*-
 
-# Всплывающее уведомление Windows в 3 строчки на Python
-# pip install win10toast
+"""Всплывающее уведомление Windows в 3 строчки на Python."""
 
 import win10toast
+# pip install win10toast
 
 toaster = win10toast.ToastNotifier()
 toaster.show_toast('Привет от Python!\n'

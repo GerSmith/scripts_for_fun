@@ -1,7 +1,7 @@
 #! python
 # -*- coding: utf-8 -*-
 
-# Свой измеритель скорости интернета на Python
+"""Свой измеритель скорости интернета на Python."""
 
 from speedtest import Speedtest
 # pip install speedtest-cli

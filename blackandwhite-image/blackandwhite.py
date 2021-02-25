@@ -1,9 +1,8 @@
 #! python
 # -*- coding: utf-8 -*-
 
-"""
-Как получить чёрно-белое изображение с помощью Python
-"""
+"""Как получить чёрно-белое изображение с помощью Python."""
+
 from PIL import Image
 # pip install pillow
 

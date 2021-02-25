@@ -1,7 +1,7 @@
 #! python
 # -*- coding: utf-8 -*-
 
-# Генератор паролей высокой сложности в несколько строк кода на Python
+"""Генератор паролей высокой сложности в несколько строк кода на Python."""
 
 import random
 from string import digits

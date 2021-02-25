@@ -1,7 +1,7 @@
 #! python
 # -*- coding: utf-8 -*-
 
-# Работа с zip файлами на python
+"""Работа с zip файлами на python."""
 
 import zipfile
 
